@@ -14,15 +14,19 @@
 #include <stdbool.h>
 #include <string.h>
 
+#include "config/zconfig.h"
+
+#include "zxnext/src/bank.h"
+#include "zxnext/src/layer2.h"
+#include "zxnext/src/ula.h"
+#include "zxnext/src/font.h"
+#include "zxnext/src/sprite.h"
+#include "zxnext/src/tilemap.h"
+#include "zxnext/src/dma.h"
+#include "zxnext/src/debug.h"
+
 #include "globals.h"
-#include "bank.h"
-#include "layer2.h"
-#include "ula.h"
-#include "font.h"
-#include "sprites.h"
 #include "tiles.h"
-#include "tilemap.h"
-#include "dma.h"
 
 /*
  * Define IDE_FRIENDLY in your C IDE to disable Z88DK C extensions and avoid

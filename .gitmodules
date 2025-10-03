@@ -1,0 +1,3 @@
+[submodule "zxnext"]
+	path = zxnext
+	url = git@github.com:RustyPixelsUK/zxnext.git
